@@ -1,6 +1,6 @@
 ﻿namespace ApiPrincipal.Bll
 {
-    public class Class1
+    public class BaseBll
     {
 
     }

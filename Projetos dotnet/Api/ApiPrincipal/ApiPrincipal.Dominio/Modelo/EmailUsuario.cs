@@ -1,6 +1,6 @@
 ﻿namespace ApiPrincipal.Dominio.Modelo
 {
-    public class EmailUsuario
+    public class EmailUsuario:ClasseBase
     {
         public long CodigoEmail {  get; set; }
         public string DescricaoEmail { get; set; }

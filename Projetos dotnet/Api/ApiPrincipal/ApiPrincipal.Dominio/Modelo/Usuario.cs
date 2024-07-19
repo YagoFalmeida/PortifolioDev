@@ -1,6 +1,6 @@
 ﻿namespace ApiPrincipal.Dominio.Modelo
 {
-    public class Usuario
+    public class Usuario:ClasseBase
     {
         public long CodigoUsuario { get; set; }
         public string Nome { get; set; }
