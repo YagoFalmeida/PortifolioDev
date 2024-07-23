@@ -8,9 +8,12 @@
         public long CodigoUsuario { get; set; }
         public Boolean Principal { get; set; }
 
+        public Usuario Usuario { get; set; }
+
         public EmailUsuario()
         {
             DescricaoEmail = string.Empty;
+            Usuario = new();
         }
     }
 }

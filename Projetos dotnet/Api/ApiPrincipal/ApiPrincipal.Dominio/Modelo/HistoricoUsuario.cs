@@ -6,11 +6,14 @@
         public DateTime DataHoraAtividade { get; set; }
         public string DescricaoAtividade { get; set; }
         public TipoAtividade TipoAtividade { get; set; }
-        public long CodigoUsuario { get; set; }        
+        public long CodigoUsuario { get; set; }
+
+        public Usuario Usuario { get; set; }
 
         public HistoricoUsuario()
         {
             DescricaoAtividade = string.Empty;
+            Usuario = new();
         }
     }
 
