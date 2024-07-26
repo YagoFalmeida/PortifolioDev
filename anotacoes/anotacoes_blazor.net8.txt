@@ -1,4 +1,5 @@
 Se um componente tiver o modo de renderização server seus componentes filhos tem que terem o mesmo modo de renderização.
+
 Modos de definir o tipo de renderização de um componente.
 	1. Aplicativar a diretiva @rendermode diretamente no componente.
 		ex: <NomeComponente @rendermode="@renderMode.Server" /> -> Este exemplo mostra com usar o mode de renderização server.
