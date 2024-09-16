@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ApiPrincipal.Dominio\ApiPrincipal.Dominio.csproj" />
-    <ProjectReference Include="..\Helpers\Helpers.csproj" />
-  </ItemGroup>
-
 </Project>
