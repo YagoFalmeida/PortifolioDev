@@ -27,7 +27,14 @@ namespace ApiPrincipal.Dal.Repositorio
 
         public List<Usuario> Listar()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return new List<Usuario>();
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }
